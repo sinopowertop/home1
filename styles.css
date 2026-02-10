@@ -1,0 +1,25 @@
+
+/* 全局样式 */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* 按钮动画 */
+button {
+  transition: all 0.3s ease;
+}
+
+/* 卡片悬停效果 */
+.shadow-md:hover {
+  transform: translateY(-5px);
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1rem;
+  }
+  .grid-cols-4 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
